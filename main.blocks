@@ -1,0 +1,49 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="e?{^nS)S:IUo*hf2sR]E" x="30" y="-196"><statement name="HANDLER"><block type="device_print_message" id="n2EK#]$*6vg{tH,YxPt("><value name="text"><shadow type="text"><field name="TEXT">Boom</field></shadow><block type="device_temperature" id="?c93=av#xWi.*[DMHZW:"/></value></block></statement></block><block type="device_gesture_event" id="(fs=NXV/j(~^`7r`cv*(" x="-243" y="-129"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="qkK*Xju6g/0w8)tbiowA"><field name="LEDS">`
+        # . # . # 
+        . # . # . 
+        . # . # . 
+        # . # . # 
+        . . # . .
+        `</field></block></statement></block><block type="device_button_event" id="ek^-waQ4vMGa]+^NlcuD" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="/jgtMWa)WC9RmEOom-pM"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="ZaLv0G#Pd}}ysq{^|@Dn"><value name="pause"><shadow type="timePicker" id="T}w+Ji(t9x:#%ufAP-;y"><field name="ms">150</field></shadow></value><next><block type="device_show_leds" id="+Psv}]afg%*JztM_~AfT"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="?fYu#-)Q0($mzj~,_4Rn"><value name="pause"><shadow type="timePicker" id="}NC6uUz7~tmm}7ET$umT"><field name="ms">150</field></shadow></value><next><block type="device_show_leds" id="(Q8|97E=u?Xewxc-JiK%"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="5!juG8+vW:iV`32iZ3W8"><value name="pause"><shadow type="timePicker" id="qZV~q-)!`vVQL~$,(9HF"><field name="ms">150</field></shadow></value><next><block type="device_show_leds" id="9UmeK~H3|/8.p@y=C1O{"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . . 
+        . # . . .
+        `</field><next><block type="device_pause" id=")!A%^)h%=x7K*}(|m4ff"><value name="pause"><shadow type="timePicker" id="_K}Nitrr{RH(-e}Q:W(h"><field name="ms">150</field></shadow></value><next><block type="device_show_leds" id="Kx9^X/5QV@bJ8r:e$?QI"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . . 
+        . # # . .
+        `</field><next><block type="device_pause" id="YjxKuq-ygPBp@W)-fj=Z"><value name="pause"><shadow type="timePicker" id="(7}5=PME1t[bpVwfBiDR"><field name="ms">150</field></shadow></value><next><block type="device_show_leds" id="Ynj+)cudPTV_Q$F?I37@"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . . 
+        . # # # .
+        `</field><next><block type="device_pause" id="9X@Ke+2Ha26j87G^U|Wq"><value name="pause"><shadow type="timePicker" id="_,%y|+MIb-a@/%/Vwp1L"><field name="ms">150</field></shadow></value><next><block type="device_ring" id="gQ-2Ocn3qhn0?wdHTq%g"><value name="note"><shadow type="device_note" id="ukDktVS)wRp8TDX;58=1"><field name="note">988</field></shadow></value><next><block type="device_show_leds" id="?2);py!}Q~5mqfq.`3I/"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field><next><block type="device_rest" id="jN0$8dsmRCl%%[|JsGR*"><value name="duration"><shadow type="device_beat" id="yY0:_FE~6vo9gZ~^],uo"><field name="fraction">BeatFraction.Whole</field></shadow></value><next><block type="device_clear_display" id="J($7ca:d]ED1jZ}yb`3R"/></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_get_sound_level" id="Bl{/826lHv7AKs}-bK^n" disabled="true" x="259" y="1528"/></xml>
